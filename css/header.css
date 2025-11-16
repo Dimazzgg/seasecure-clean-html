@@ -16,8 +16,27 @@
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
   font-weight: 600;
   letter-spacing: 0.03em;
+}
+
+.logo-mark {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
+.logo-text {
+  line-height: 1;
+}
+
+.logo-image {
+justify-content: flex-end;
+align-content: flex-end;
+
 }
 
 /* Navigation */
