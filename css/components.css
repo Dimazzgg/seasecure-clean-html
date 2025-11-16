@@ -1,0 +1,105 @@
+/* Grids & cards */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.04);
+}
+
+.card h2,
+.card h3 {
+  margin-top: 0;
+}
+
+/* CTA */
+.cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.cta-inner p {
+  color: #cbd5f5;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1.3rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.btn.primary {
+  background: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
+}
+
+.btn.primary:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.btn.secondary {
+  background: #f97316;
+  color: #111827;
+  box-shadow: 0 8px 20px rgba(248, 150, 69, 0.4);
+}
+
+.btn.secondary:hover {
+  background: #ea580c;
+  transform: translateY(-1px);
+}
+
+.btn.ghost {
+  background: transparent;
+  border-color: #9ca3af;
+  color: #374151;
+}
+
+.btn.ghost:hover {
+  background: #e5e7eb;
+}
+
+/* Lists */
+.feature-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.feature-list li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.feature-list li::before {
+  content: "�?�";
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+}

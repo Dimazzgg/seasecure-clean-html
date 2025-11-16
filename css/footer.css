@@ -1,0 +1,28 @@
+/* Footer */
+.site-footer {
+  border-top: 1px solid #e5e7eb;
+  padding: 1.5rem 0;
+  background: #0b1120;
+  color: #9ca3af;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  font-size: 0.85rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #9ca3af;
+}
+
+.footer-links a:hover {
+  color: #e5e7eb;
+}
