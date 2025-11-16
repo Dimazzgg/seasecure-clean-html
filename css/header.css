@@ -33,12 +33,6 @@
   line-height: 1;
 }
 
-.logo-image {
-justify-content: flex-end;
-align-content: flex-end;
-
-}
-
 /* Navigation */
 .main-nav {
   display: flex;
